@@ -14,6 +14,7 @@ ALUMNOS:
 pthread_t hilo[N];
 double parcialPi[N];
 
+//Formula de leibniz para aproximar a pi
 double calcPi(long long k) {
   long long max = t*(k+1)/N;
   long long min = t*k/N;
